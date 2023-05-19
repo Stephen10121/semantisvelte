@@ -41,13 +41,35 @@
     }
 
     .themeSetter.themeSetter-light {
-        --primary-color: rgb(18, 70, 26);
-        --base-color: #dfdfdf;
+        --primary-color: #86efac;
+        --secondary-color: #c04eed;
+        --accent-color: #8b5cf6;
+        --nuetral-color: #374151;
+        --base-color: #d1d5db;
+        --info-color: #7BE0F4;
+        --success-color: #18D898;
+        --warning-color: #fffb00;
+        --error-color: #df0e0e;
+        --text-color: #0000009f;
+        --text-color-light: #ffffffc2;
+        --primary-font: system-ui;
+        --secondary-font: sans-serif;
     }
 
     .themeSetter.themeSetter-dark {
-        --primary-color: #15ca33;
-        --base-color: #000000;
+        --primary-color: #86efac;
+        --secondary-color: #c04eed;
+        --accent-color: #8b5cf6;
+        --nuetral-color: #374151;
+        --base-color: #111827;
+        --info-color: #7BE0F4;
+        --success-color: #18D898;
+        --warning-color: #eab308;
+        --error-color: #b91c1c;
+        --text-color: #0000009f;
+        --text-color-light: #ffffffc2;
+        --primary-font: system-ui;
+        --secondary-font: sans-serif;
     }
 
     @media (prefers-color-scheme: dark) {

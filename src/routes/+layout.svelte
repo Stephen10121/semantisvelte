@@ -8,6 +8,7 @@
     let customThemes = [
         {id: "custom1", themeClass: "myCustomTheme"},
         {id: "custom2", themeClass: "myCustomTheme2"},
+        {id: "nothing", themeClass: "nothing"}
     ]
 
     async function setTheme() {
@@ -27,6 +28,7 @@
         <option value="light" selected={theme==="light"}>light</option>
         <option value="custom1" selected={theme==="custom1"}>custom 1</option>
         <option value="custom2" selected={theme==="custom2"}>custom 2</option>
+        <option value="nothing" selected={theme==="nothing"}>nothing</option>
         <option value="system" selected={theme==="system"}>system</option>
     </select>
     <slot />
