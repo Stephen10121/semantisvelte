@@ -1,1 +1,27 @@
-*, *::before, *::after {padding: 0;margin: 0;box-sizing: border-box;}body {width: 100vw;height: 100vh;height: 100dvh;}#app {width: 100%;height: 100%;}.myCustomTheme {--primary-color: #ab27fe;--base-color: #e94f4f;}.myCustomTheme2 {--primary-color: #c46e28;--base-color: #3c4eb1;}
+*, *::before, *::after {
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body {
+    width: 100vw;height: 100vh;height: 100dvh;
+}
+#app {
+    width: 100%;height: 100%;
+}
+.myCustomTheme {
+    --primary-color: #86efac;
+    --secondary-color: #c04eed;
+    --accent-color: #8b5cf6;
+    --nuetral-color: #374151;
+    --base-color: #111827;
+    --info-color: #7BE0F4;
+    --success-color: #18D898;
+    --warning-color: #eab308;
+    --error-color: #b91c1c;
+    --text-color: #0000009f;
+    --text-color-light: #ffffffc2;
+    --primary-font: system-ui;
+    --secondary-font: sans-serif;
+}
+.myCustomTheme2 {
+    --primary-color: #c46e28;--base-color: #3c4eb1;
+}

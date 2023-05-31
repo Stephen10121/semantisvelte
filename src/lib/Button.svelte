@@ -6,7 +6,7 @@
     export let height = "auto";
 </script>
 
-<button {title} on:click on:dblclick style="height:{height};width: {width};" class="{role}">
+<button {title} on:click on:dblclick style="height:{height};width: {width};" class={role}>
     <slot />
 </button>
 
