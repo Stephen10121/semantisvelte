@@ -41,52 +41,146 @@
     }
 
     .themeSetter.themeSetter-light {
-        --primary-color: #86efac;
-        --secondary-color: #c04eed;
-        --accent-color: #8b5cf6;
-        --nuetral-color: #374151;
-
-        --base-color: #d1d5db;
-
-        --info-color: #7BE0F4;
-        --success-color: #18D898;
-        --warning-color: #fffb00;
-        --error-color: #df0e0e;
-
-        --text-color: #0000009f;
+        --text-color: #000000a6;
         --text-color-light: #ffffffc2;
+        
+        --primary-color: #c7bef7;
+        --primary-text-color: var(--text-color);
+
+        --secondary-color: #94A8F6;
+        --secondary-text-color: var(--text-color);
+
+        --accent-color: #220cc9;
+        --accent-text-color: var(--text-color-light);
+
+        --nuetral-color: #5371E8;
+        --nuetral-text-color: var(--text-color-light);
+
+        --base-color: #EAF3FA;
+        --base-text-color: var(--text-color);
+
+        --info-color: #4B95CE;
+        --info-text-color: var(--text-color);
+
+        --success-color: #29E0A3;
+        --success-text-color: var(--text-color);
+
+        --warning-color: #D49311;
+        --warning-text-color: var(--text-color);
+
+        --error-color: #DD273C;
+        --error-text-color: var(--text-color);
 
         --primary-font: system-ui;
         --secondary-font: sans-serif;
     }
 
     .themeSetter.themeSetter-dark {
+        --text-color: #0000009f;
+        --text-color-light: #ffffffc2;
+
         --primary-color: #86efac;
-    --secondary-color: #c04eed;
-    --accent-color: #8b5cf6;
-    --nuetral-color: #374151;
-    --base-color: #111827;
-    --info-color: #7BE0F4;
-    --success-color: #18D898;
-    --warning-color: #eab308;
-    --error-color: #b91c1c;
-    --text-color: #0000009f;
-    --text-color-light: #ffffffc2;
-    --primary-font: system-ui;
-    --secondary-font: sans-serif;
+        --primary-text-color: var(--text-color);
+
+        --secondary-color: #16253d;
+        --secondary-text-color: var(--text-color-light);
+
+        --accent-color: #8b5cf6;
+        --accent-text-color: var(--text-color);
+
+        --nuetral-color: #374151;
+        --nuetral-text-color: var(--text-color-light);
+
+        --base-color: #111827;
+        --base-text-color: var(--text-color-light);
+
+        --info-color: #7BE0F4;
+        --info-text-color: var(--text-color);
+
+        --success-color: #18D898;
+        --success-text-color: var(--text-color);
+
+        --warning-color: #eab308;
+        --warning-text-color: var(--text-color);
+
+        --error-color: #b91c1c;
+        --error-text-color: var(--text-color-light);
+
+        --primary-font: system-ui;
+        --secondary-font: sans-serif;
     }
 
     @media (prefers-color-scheme: dark) {
         .themeSetter.themeSetter-system {
-            --primary-color: #15ca33;
-            --base-color: #000000;
-        }
+        --text-color: #0000009f;
+        --text-color-light: #ffffffc2;
+
+        --primary-color: #86efac;
+        --primary-text-color: var(--text-color);
+
+        --secondary-color: #c04eed;
+        --secondary-text-color: var(--text-color);
+
+        --accent-color: #8b5cf6;
+        --accent-text-color: var(--text-color);
+
+        --nuetral-color: #374151;
+        --nuetral-text-color: var(--text-color-light);
+
+        --base-color: #111827;
+        --base-text-color: var(--text-color-light);
+
+        --info-color: #7BE0F4;
+        --info-text-color: var(--text-color);
+
+        --success-color: #18D898;
+        --success-text-color: var(--text-color);
+
+        --warning-color: #eab308;
+        --warning-text-color: var(--text-color);
+
+        --error-color: #b91c1c;
+        --error-text-color: var(--text-color-light);
+
+        --primary-font: system-ui;
+        --secondary-font: sans-serif;
+    }
     }
 
     @media (prefers-color-scheme: light) {
         .themeSetter.themeSetter-system {
-            --primary-color: rgb(18, 70, 26);
-            --base-color: #dfdfdf;
+        --text-color: #000000a6;
+        --text-color-light: #ffffffc2;
+        
+        --primary-color: #75cff9;
+        --primary-text-color: var(--text-color);
+
+        --secondary-color: #579fd6;
+        --secondary-text-color: var(--text-color);
+
+        --accent-color: #7d20f7;
+        --accent-text-color: var(--text-color);
+
+        --nuetral-color: #2B2037;
+        --nuetral-text-color: var(--text-color-light);
+
+        --base-color: #E9DFEC;
+        --base-text-color: var(--text-color);
+
+        --info-color: #4B95CE;
+        --info-text-color: var(--text-color);
+
+        --success-color: #29E0A3;
+        --success-text-color: var(--text-color);
+
+        --warning-color: #D49311;
+        --warning-text-color: var(--text-color);
+
+        --error-color: #DD273C;
+        --error-text-color: var(--text-color);
+
+        --primary-font: system-ui;
+        --secondary-font: sans-serif;
         }
     }
 </style>

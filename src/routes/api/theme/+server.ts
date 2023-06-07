@@ -12,6 +12,6 @@ export async function POST({ request, cookies }) {
     if (!body.theme) {
         throw error(400, {message: "Missing Parameters."});
     }
-    cookies.set("theme", body.theme, {path: "/", secure: !dev});
+    cookies.set("theme", body.theme, {path: "/", secure: !dev, expires: new Date(2.04e12)});
     return json({ theme: body.theme });
 }
